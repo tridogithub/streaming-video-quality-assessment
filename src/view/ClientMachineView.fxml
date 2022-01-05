@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="clientAnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientMachineController">
+   <children>
+      <Pane prefHeight="403.0" prefWidth="603.0">
+         <children>
+            <Label layoutX="12.0" layoutY="16.0" text="READY TO CONNECT">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="161.0" layoutY="43.0" startX="-100.0" strokeWidth="2.0" />
+            <Line endX="100.0" layoutX="111.0" layoutY="43.0" startX="-100.0" strokeWidth="2.0" />
+            <TextField fx:id="addressValueInput" layoutX="74.0" layoutY="69.0" />
+            <Label layoutX="12.0" layoutY="74.0" text="Address:" />
+            <Label layoutX="273.0" layoutY="74.0" text="Port:" />
+            <TextField fx:id="portValueInput" layoutX="314.0" layoutY="69.0" prefHeight="31.0" prefWidth="78.0" />
+            <Button fx:id="connectBtn" layoutX="12.0" layoutY="119.0" mnemonicParsing="false" onAction="#startConnect" text="Connect" />
+            <Button fx:id="backToHomeBtn" layoutX="476.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToHome" text="Back to Home" />
+            <Label fx:id="addressErrorLabel" layoutX="74.0" layoutY="100.0" textFill="RED">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="portErrorLabel" layoutX="314.0" layoutY="100.0" textFill="RED">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
