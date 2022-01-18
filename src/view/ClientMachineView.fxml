@@ -37,5 +37,6 @@
             </Label>
          </children>
       </Pane>
+      <Label layoutX="185.0" layoutY="386.0" text="By Tri.dv184316@sis.hust.edu.vn" textFill="#bcb7b7" />
    </children>
 </AnchorPane>
