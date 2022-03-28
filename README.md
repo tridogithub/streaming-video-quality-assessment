@@ -13,6 +13,6 @@ An desktop application for Linux system. It supports users to stream/watch strea
 - CSS
 
 ## How the app looks like
-[alt_text](https://github.com/tridogithub/streaming-video-quality-assessment/blob/main/welcome-screen.png)
-[alt_text](https://github.com/tridogithub/streaming-video-quality-assessment/blob/main/client-screen.png)
-[alt_text](https://github.com/tridogithub/streaming-video-quality-assessment/blob/main/server-screen.png)
+![alt_text](https://github.com/tridogithub/streaming-video-quality-assessment/blob/main/welcome-screen.png)
+![alt_text](https://github.com/tridogithub/streaming-video-quality-assessment/blob/main/client-screen.png)
+![alt_text](https://github.com/tridogithub/streaming-video-quality-assessment/blob/main/server-screen.png)
